@@ -159,8 +159,9 @@ if __name__ == '__main__':
         measure = err_real.item() + np.abs(balance)
         ########### Logging #########
         print('[%d/%d] Loss_D: %.4f Loss_G: %.4f Measure: %.4f K: %.4f LR: %.8f'
-                  % (iteration, opt.niter,
-                     errD.item(), errG.item(), measure, k, optimizerD.param_groups[0]['lr']))
+              % (iteration, opt.niter,
+                 errD.item(), errG.item(), measure, k, optimizerD.param_groups[0]['lr']
+              ))
 
         ########### Learning Rate Decay #########
         optimizerD = adjust_learning_rate(optimizerD,iteration)
@@ -168,14 +169,17 @@ if __name__ == '__main__':
         ########## Visualize #########
         if(iteration % 3000 == 0):
             vutils.save_image(fake.data,
-                        '%s/fake_samples_iteration_%03d.png' % (opt.outp, iteration),
-                        normalize=True)
+                              '%s/fake_samples_iteration_%03d.png' % (opt.outp, iteration),
+                               normalize=True
+                             )
             vutils.save_image(real.data,
-                        '%s/real_samples_iteration_%03d.png' % (opt.outp, iteration),
-                        normalize=True)
+                              '%s/real_samples_iteration_%03d.png' % (opt.outp, iteration),
+                              normalize=True
+                             )
             vutils.save_image(real_recons.data,
-                        '%s/real_recons_samples_iteration_%03d.png' % (opt.outp, iteration),
-                        normalize=True)
+                              '%s/real_recons_samples_iteration_%03d.png' % (opt.outp, iteration),
+                              normalize=True
+                             )
 
         if(iteration % opt.save_step == 0):
             torch.save(netG.state_dict(), '%s/netG_%d.pth' % (opt.outf,iteration))
