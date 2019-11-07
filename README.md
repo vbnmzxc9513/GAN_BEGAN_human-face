@@ -14,3 +14,5 @@
 
 4.generate image
 
+# Config5
+I try a lot of paramater this one is the best one in 48000 iter.
