@@ -2,5 +2,5 @@
 0857214 student: 蔡詠平
 
 
-# Tool Pytorch
-# method BEGAN
+## Tool Pytorch
+## method BEGAN
