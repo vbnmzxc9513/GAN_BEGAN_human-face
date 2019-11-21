@@ -23,3 +23,5 @@ Boundary Equilibrium Generative Adversarial Networks: https://arxiv.org/abs/1703
 DCGAN: https://github.com/chenyuntc/pytorch-book/tree/master/chapter7-GAN%E7%94%9F%E6%88%90%E5%8A%A8%E6%BC%AB%E5%A4%B4%E5%83%8F
 
 BEGAN implement: https://github.com/sunshineatnoon/Paper-Implementations/tree/master/BEGAN
+
+# Result
