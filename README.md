@@ -25,3 +25,4 @@ DCGAN: https://github.com/chenyuntc/pytorch-book/tree/master/chapter7-GAN%E7%94%
 BEGAN implement: https://github.com/sunshineatnoon/Paper-Implementations/tree/master/BEGAN
 
 # Result
+![image](https://github.com/vbnmzxc9513/GAN_BEGAN_hw2/blob/master/500_image.png)
