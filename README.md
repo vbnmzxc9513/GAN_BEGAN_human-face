@@ -1,4 +1,4 @@
-# GAN_BEGAN_hw2
+# NCTU_GAN_BEGAN
 0857214 student: 蔡詠平
 
 
