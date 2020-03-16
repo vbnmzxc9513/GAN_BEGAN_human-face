@@ -1,4 +1,4 @@
-# NCTU_GAN_BEGAN
+# GAN_BEGAN for human face
 0857214 student: 蔡詠平
 
 
