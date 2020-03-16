@@ -1,5 +1,5 @@
 # GAN_BEGAN for human face
-0857214 student: 蔡詠平
+Github author: 蔡詠平
 
 
 ## Tool: Pytorch
